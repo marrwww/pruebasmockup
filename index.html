@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign-in</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <div class="container">
 
-        <div class="left">
+        <div class="form-container login">
             <h1>Iniciar sesión</h1>
         
-            <form>
                 <label>Email</label>
                 <input type="email">
 
@@ -21,14 +20,40 @@
 
                 <a href="#" class="forgot">Forgot password</a>
 
-                <buttom type="sumbit">Iniciar sesión</buttom>
-            </form>
+                <button type="sumbit">Iniciar sesión</button>
+            
 
         </div>
 
+        <div class="form-container signin">
+          <h2>Crear cuenta</h2>
+          <label>Nombre</label>
+          <input type="nombre">
+
+          <label>Email</label>
+          <input type="email">
+
+          <label>Contraseña</label>
+          <input type="contraseña">
+
+          <button>Crear cuenta</button>
+        </div>
+
+      <div class="overlay">
+         <div class="overlay-content">
+            <h2 id="overlay-text">Bienvenido</h2>
+            <button class="mov" id="t">Crear cuenta</button>
+
+         </div>
+      </div>
+       
+
     </div>
 
-    <div></div>
+
+ 
+
+    
     
 </body>
 </html>
